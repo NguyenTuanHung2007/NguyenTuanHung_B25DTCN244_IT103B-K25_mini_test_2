@@ -2,6 +2,7 @@
 
 let nameStr = "Quý, Nam, Lan, Hùng, Nam";
 let students = nameStr.split(", ");
+let flag1 = true;
 let flag2 = true;
 students.reverse();
 // Có làm thay dổi mảng gốc
@@ -20,7 +21,7 @@ for (let i = 0; i < students.length; i++) {
     console.log(
       `Tên Nam tồn tại trong mảng tại vị trí ${students.indexOf("Nam")}`,
     );
-    flag = false;
+    flag1 = false;
     break;
   }
 }
