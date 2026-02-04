@@ -25,7 +25,7 @@ for (let i = 0; i < students.length; i++) {
     break;
   }
 }
-if (flag) {
+if (flag1) {
   console.log("Không tìm thấy tên Nam");
 }
 
